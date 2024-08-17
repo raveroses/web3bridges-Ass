@@ -1,0 +1,623 @@
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    font-weight: 300px;
+    font-family: 'Public Sans', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: hsl(220, 16%, 96%);
+}
+
+
+p{
+    font-size: 18px;
+}
+
+.linksLi{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.linksLi li{
+    float: left;
+    padding-left:40px;
+    position: relative;
+}
+
+.linksLi li a{
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.linksLi li a:hover::after{
+    position: absolute;
+    content:' ';
+    background-color:hsl(136, 65%, 51%);
+    height: 15px;
+    width: 40px;
+    top:17px;
+    bottom: -10px;
+    left: 40px;
+}
+
+.requestPlace{
+    background-color:hsl(136, 65%, 51%);
+    border-radius: 30px;
+    padding:15px 25px;
+}  
+
+.requestPlace a{
+color:hsl(0, 0%, 100%) ;
+text-decoration: none;
+font-weight: 700;
+cursor: pointer;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width:100%;
+    max-width: 100%;
+    padding-left: 100px;
+}
+.contentplace{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 40%;
+}
+
+.firstContent{
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.firstContent h3{
+    font-size: 35px;
+    font-weight: 700;
+    color:hsl(233, 26%, 24%);
+}
+
+
+.secondContent{
+    padding-bottom: 30px;
+}
+.linkContent{
+    background-color:hsl(136, 65%, 51%);
+    border-radius: 30px;
+    padding:15px 25px;
+}
+.linkContent a{
+    color:hsl(0, 0%, 100%) ;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.imagePlace{
+    position:relative;
+    width: 50%;
+    margin:0;
+    padding:0;
+}
+.secondImage{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom:0;
+}
+
+.firstImage img{
+    width:500px;
+}
+
+.secondImage img{
+    width:400px;
+}
+
+.section2{
+    background-color:hsl(220, 16%, 96%);
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 90px;
+}
+.question{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.question h4{
+    font-size: 30px;
+    font-weight: 300
+}
+
+.questionContent p{
+    font-size: 18px;
+    width: 70%;
+}
+
+.circlePart{
+    padding-top: 50px;
+}
+.circleFlex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.circle1{
+    padding-bottom: 20px;
+}
+
+.contentCircle1{
+    width: 20%;
+    margin-right: 35px;
+}
+.circleHeading{
+    padding-bottom: 20px;
+}
+
+.circleHeading h5{
+    font-size: 25px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+
+.circleClass p{
+    font-size: 15px;
+    color:hsl(233, 8%, 62%) ;
+    font-weight: 200;
+}
+
+.section3{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 90px;
+    padding-top: 70px;
+    background-color: hsl(0, 0%, 98%);
+}
+.article h5{
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+.articleFlex{
+    padding-top: 35px;
+    display: flex;
+}
+
+
+.thereaelArticle{
+    margin-right: 20px;
+}
+
+
+.imagearticle img{
+    width: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.namesarticle{
+    padding-top:30px;
+    padding-bottom: 15px;
+}
+
+.namesarticle p{
+    font-size: 10px;
+}
+
+.paddingContent{
+    padding-left: 20px;
+    padding-right: 100px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 45px;
+}
+
+.heaingsArticle h5{
+    font-size: 20px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+.articlecontent{
+    padding-top: 20px;
+}
+.articlecontent p{
+    font-size: 15px;
+    color:hsl(233, 8%, 62%) ;
+}
+
+.section4{
+    background-color: hsl(233, 26%, 24%);
+}
+
+.socialmedialFlex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-top: 20px;
+}
+.img{
+    padding-right: 5px;
+}
+.img img{
+    width:15px;
+}
+
+.imageLogo{
+   background-color: white;
+}
+
+
+.section4flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding:40px 50px;
+}
+
+.Linkending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.Linkending a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.Linkending a:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+.lastDiv{
+    width:15%
+}
+.lastrequestPlace{
+    background-color:hsl(136, 65%, 51%);
+    border-radius: 30px;
+    padding:15px 25px;
+}
+
+.lastrequestPlace a{
+color:hsl(0, 0%, 100%) ;
+text-decoration: none;
+font-weight: 700;
+cursor: pointer;
+text-align: center;
+}
+
+.right{
+    padding-top: 10px;
+}
+
+.right p{
+    color:white;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.imagePlaces{
+    display: none;
+}
+
+.active{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+
+
+
+@media (max-width:600px){
+    .linksLi li {
+        float: none;
+        padding-left: 0px;
+        font-size: 15px;
+    }
+
+    .requestPlace {
+        border-radius: 29px;
+        padding: 11px 12px;
+        display:none;
+    }
+    
+    .requestPlace a {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .navlinks{
+        margin-top: 40px;
+    }
+
+    .logoPlace img{
+        width:100px;
+    }
+
+    
+    .harmbuger{
+        margin-left: 240px;
+    }
+
+    .active{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    
+
+     .navhidden{
+        display: none;
+     }
+
+
+
+    /*  */
+
+    .navlinks {
+         margin-top: 0px;
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        background-color: hsl(220, 16%, 96%);
+        padding-top: 40px;
+        width:250px;
+        height: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 6px black;
+    }
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        height: 70px;
+        background-color: hsl(220, 16%, 96%);
+    }
+    
+    .linksLi li {
+        float: none;
+        padding-left: 0px;
+        font-size: 15px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+
+  
+
+    .imagePlace{
+        display: none;
+    }
+    .imagePlaces{
+        display: block;
+        position: relative;
+        width: 100%;
+        z-index: -1;
+    }
+    .firstImage img{
+        width:370px;
+    }
+    .secondImage{
+        position: absolute;
+        right:0;
+        top:-33px;
+        left:0;
+ }
+ .secondImage img{
+    width: 300px;
+ }
+
+
+
+
+ .section1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0px;
+    flex-direction: column;
+}
+
+.contentplace {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    padding-left: 23px;
+    text-align: center;
+}
+
+.firstContent {
+    padding-right: 0px;
+    padding-bottom: 21px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.firstContent h3 {
+    font-size: 34px;
+    font-weight: 500;
+    color: hsl(233, 26%, 24%);
+}
+
+.secondContent {
+    padding-bottom: 30px;
+}
+.linkContent {
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin: auto;
+}
+.section2 {
+    background-color: hsl(220, 16%, 96%);
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.questionPlace{
+    text-align: center;
+}
+.question h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.question {
+    padding-top: 100px;
+    padding: 37px;
+    text-align: center;
+}
+.questionContent p {
+    font-size: 15px;
+    width: 100%;
+}
+.questionContent{
+    text-align: center;
+}
+
+.circleFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.contentCircle1 {
+    width: 100%;
+    padding: 10px;
+    margin-right: 0px;
+}
+
+.section3 {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding-bottom: 90px;
+    padding-top: 70px;
+    background-color: hsl(0, 0%, 98%);
+}
+.articleFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 37px 45px;
+}
+.thereaelArticle {
+    margin-right: 0px;
+}
+.paddingContent {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 45px;
+}
+.thereaelArticle {
+    margin-right: 0px;
+}
+.articlecontent {
+    padding-top: 20px;
+}
+.section4flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 42px 0px;
+    flex-direction: column;
+}
+
+
+.img {
+    padding-right: 16px;
+}
+
+.Linkending a {
+    font-size: 15px;
+}
+.lastrequestPlace {
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 30px;
+    padding: 10px 36px;
+}
+.lastDiv {
+    width: 52%;
+}
+
+
+.linksLi li a:hover::after{
+    position:none;
+    content:' ';
+    background-color:none;
+    height: 15px;
+    width: 0px;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+}
+.linksLi li a:hover{
+    border-bottom: 2px solid hsl(136, 65%, 51%);
+}
+
+
+
+
+}
+
+
+
